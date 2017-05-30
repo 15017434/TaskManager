@@ -5,6 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="sg.edu.rp.c347.taskmanager.MainActivity">
+    tools:context="sg.edu.rp.c347.taskmanager.MainActivity"
+    android:weightSum="1">
 
+    <ListView
+        android:id="@+id/lvTask"
+        android:layout_width="match_parent"
+        android:layout_height="448dp"
+        android:layout_weight="0.73" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Add Task" />
 </LinearLayout>
